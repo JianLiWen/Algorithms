@@ -27,7 +27,7 @@ public class TwoDataSum {
         System.out.println("下标索引值为：" + Arrays.toString(index));
     }
 
-    // 自己写，用时8毫秒，内存38.6M
+    // 自己写，用时8毫秒，内存38.6M 暴力法，遍历数组，分别找到两个和为target的索引，但是这样复杂度太高
     public static int[] twoSum(int[] nums,int target){
         int [] arrayIndex = new int[2];
         for (int i=0;i<=nums.length-2;i++){

@@ -64,4 +64,6 @@ public class SearchDataRange {
         }
         return  new int[]{firstIndex,endIndex};
     }
+
+    // 优化解方法：通过二分查找算法
 }
