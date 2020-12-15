@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组-数组形式的整数加法优化">
-      <change afterPath="$PROJECT_DIR$/src/array/MajorityElement.java" afterDir="false" />
+    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组-主要元素">
+      <change afterPath="$PROJECT_DIR$/src/array/SumOddLengthSubArrays.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.MajorityElement">
+  <component name="RunManager" selected="Application.SumOddLengthSubArrays">
     <configuration name="AddToArrayForm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.AddToArrayForm" />
       <module name="Algorithm" />
@@ -91,8 +91,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SearchDataRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SearchDataRange" />
+    <configuration name="SortedSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SortedSquares" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -104,8 +104,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortedSquares" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.SortedSquares" />
+    <configuration name="SumOddLengthSubArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.SumOddLengthSubArrays" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -132,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SumOddLengthSubArrays" />
         <item itemvalue="Application.MajorityElement" />
         <item itemvalue="Application.AddToArrayForm" />
         <item itemvalue="Application.SortedSquares" />
         <item itemvalue="Application.TransPose" />
-        <item itemvalue="Application.SearchDataRange" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +161,7 @@
       <workItem from="1607916038315" duration="900000" />
       <workItem from="1607916954802" duration="74000" />
       <workItem from="1607917036382" duration="14000" />
-      <workItem from="1607917291549" duration="167000" />
+      <workItem from="1607917291549" duration="5694000" />
     </task>
     <task id="LOCAL-00001" summary="数组-两数之和">
       <created>1607581523260</created>
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607916283791</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="数组-主要元素">
+      <created>1607917564360</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1607917564360</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,32 +229,33 @@
     <MESSAGE value="数组-转置矩阵、有序数组的平方" />
     <MESSAGE value="数组-数组形式的整数加法" />
     <MESSAGE value="数组-数组形式的整数加法优化" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组-数组形式的整数加法优化" />
+    <MESSAGE value="数组-主要元素" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组-主要元素" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607912792163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607912792163" />
-    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1607917328998">
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom" timestamp="1608018524918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607917328998" />
+    <state width="1877" height="190" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608018524918" />
     <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
-    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1607917328997">
+    <state width="1877" height="190" key="GridCell.Tab.0.center" timestamp="1608018524918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607917328997" />
+    <state width="1877" height="190" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608018524918" />
     <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
-    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1607917328997">
+    <state width="1877" height="190" key="GridCell.Tab.0.left" timestamp="1608018524917">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607917328997" />
+    <state width="1877" height="190" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608018524917" />
     <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
-    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1607917328997">
+    <state width="1877" height="190" key="GridCell.Tab.0.right" timestamp="1608018524918">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="190" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607917328997" />
+    <state width="1877" height="190" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608018524918" />
     <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
     <state width="1877" height="177" key="GridCell.Tab.1.bottom" timestamp="1607683959334">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -265,10 +273,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="177" key="GridCell.Tab.1.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607683959334" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607916285210">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607917565982">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607916285210" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607917565982" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607871725798" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1607917418289">
       <screen x="0" y="0" width="1920" height="1040" />
