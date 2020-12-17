@@ -19,8 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组- 所有奇数长度子数组的和">
-      <change afterPath="$PROJECT_DIR$/src/array/MaxMiumProduct.java" afterDir="false" />
+    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组- 三个数最大乘积">
+      <change afterPath="$PROJECT_DIR$/src/array/ContainsNearbyDuplicate.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,9 +66,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.MaxMiumProduct">
-    <configuration name="MajorityElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MajorityElement" />
+  <component name="RunManager" selected="Application.ContainsNearbyDuplicate">
+    <configuration name="ContainsNearbyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.ContainsNearbyDuplicate" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ContainsNearbyDuplicate" />
         <item itemvalue="Application.MaxMiumProduct" />
         <item itemvalue="Application.SortedSquares" />
         <item itemvalue="Application.TransPose" />
         <item itemvalue="Application.SumOddLengthSubArrays" />
-        <item itemvalue="Application.MajorityElement" />
       </list>
     </recent_temporary>
   </component>
@@ -168,6 +168,7 @@
       <workItem from="1608126997404" duration="6408000" />
       <workItem from="1608186255929" duration="1384000" />
       <workItem from="1608188416204" duration="301000" />
+      <workItem from="1608210046956" duration="1479000" />
     </task>
     <task id="LOCAL-00001" summary="数组-两数之和">
       <created>1607581523260</created>
@@ -218,7 +219,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608020734712</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="数组- 三个数最大乘积">
+      <created>1608210168485</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1608210168486</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,32 +252,33 @@
     <MESSAGE value="数组-数组形式的整数加法优化" />
     <MESSAGE value="数组-主要元素" />
     <MESSAGE value="数组- 所有奇数长度子数组的和" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组- 所有奇数长度子数组的和" />
+    <MESSAGE value="数组- 三个数最大乘积" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组- 三个数最大乘积" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607912792163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607912792163" />
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom" timestamp="1608186747018">
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom" timestamp="1608210534301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186747018" />
+    <state width="1877" height="135" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608210534301" />
     <state width="1237" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
-    <state width="1877" height="202" key="GridCell.Tab.0.center" timestamp="1608186747018">
+    <state width="1877" height="135" key="GridCell.Tab.0.center" timestamp="1608210534301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186747018" />
+    <state width="1877" height="135" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608210534301" />
     <state width="1237" height="195" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
-    <state width="1877" height="202" key="GridCell.Tab.0.left" timestamp="1608186747018">
+    <state width="1877" height="135" key="GridCell.Tab.0.left" timestamp="1608210534301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186747018" />
+    <state width="1877" height="135" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608210534301" />
     <state width="1237" height="195" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
-    <state width="1877" height="202" key="GridCell.Tab.0.right" timestamp="1608186747018">
+    <state width="1877" height="135" key="GridCell.Tab.0.right" timestamp="1608210534301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="202" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186747018" />
+    <state width="1877" height="135" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608210534301" />
     <state width="1237" height="195" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607871511476" />
     <state width="1877" height="138" key="GridCell.Tab.1.bottom" timestamp="1608186224366">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -291,10 +300,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="221" key="RollbackChangesDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186306107" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608020736366">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608210169912">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608020736366" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608210169912" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1607871725798" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608128547380">
       <screen x="0" y="0" width="1920" height="1040" />
