@@ -19,8 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组- 数组序号转换">
-      <change afterPath="$PROJECT_DIR$/src/array/CountCharacters.java" afterDir="false" />
+    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组- 拼写单词">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/array/findKthPositive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/string/RepeatSubString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,22 +69,9 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
-  <component name="RunManager" selected="Application.CountCharacters">
+  <component name="RunManager" selected="Application.RepeatSubString">
     <configuration name="ArrayRankTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array.ArrayRankTransform" />
-      <module name="Algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContainsNearbyDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ContainsNearbyDuplicate" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +109,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxMiumProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxMiumProduct" />
+    <configuration name="RepeatSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string.RepeatSubString" />
+      <module name="Algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Reverse" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatSubString" />
+        <item itemvalue="Application.Reverse" />
         <item itemvalue="Application.CountCharacters" />
         <item itemvalue="Application.ArrayRankTransform" />
         <item itemvalue="Application.MaxConsecutiveOnes" />
-        <item itemvalue="Application.ContainsNearbyDuplicate" />
-        <item itemvalue="Application.MaxMiumProduct" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +174,11 @@
       <workItem from="1608210046956" duration="1572000" />
       <workItem from="1608303606639" duration="3638000" />
       <workItem from="1608352701128" duration="1755000" />
-      <workItem from="1608472313423" duration="4467000" />
+      <workItem from="1608472313423" duration="4519000" />
+      <workItem from="1608559121787" duration="1072000" />
+      <workItem from="1608779953957" duration="1222000" />
+      <workItem from="1608818280767" duration="911000" />
+      <workItem from="1609075396427" duration="2173000" />
     </task>
     <task id="LOCAL-00001" summary="数组-两数之和">
       <created>1607581523260</created>
@@ -250,7 +257,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608473193167</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="数组- 拼写单词">
+      <created>1608476833165</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1608476833165</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,33 +294,38 @@
     <MESSAGE value="数组- 存在重复元素" />
     <MESSAGE value="数组- 最大连续1的个数" />
     <MESSAGE value="数组- 数组序号转换" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组- 数组序号转换" />
+    <MESSAGE value="数组- 拼写单词" />
+    <option name="LAST_COMMIT_MESSAGE" value="数组- 拼写单词" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="736" y="413" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608559525016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="736" y="413" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608559525016" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607912792163">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607912792163" />
-    <state width="618" height="133" key="GridCell.Tab.0.bottom" timestamp="1608476181626">
+    <state width="1222" height="157" key="GridCell.Tab.0.bottom" timestamp="1609076950495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608211621129" />
-    <state width="618" height="133" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608476181626" />
-    <state width="618" height="133" key="GridCell.Tab.0.center" timestamp="1608476181626">
+    <state width="1877" height="232" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
+    <state width="1222" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
+    <state width="1222" height="157" key="GridCell.Tab.0.center" timestamp="1609076950495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608211621128" />
-    <state width="618" height="133" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608476181626" />
-    <state width="618" height="133" key="GridCell.Tab.0.left" timestamp="1608476181626">
+    <state width="1877" height="232" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
+    <state width="1222" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
+    <state width="1222" height="157" key="GridCell.Tab.0.left" timestamp="1609076950495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608211621128" />
-    <state width="618" height="133" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608476181626" />
-    <state width="618" height="133" key="GridCell.Tab.0.right" timestamp="1608476181626">
+    <state width="1877" height="232" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
+    <state width="1222" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
+    <state width="1222" height="157" key="GridCell.Tab.0.right" timestamp="1609076950495">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1877" height="135" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608211621129" />
-    <state width="618" height="133" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608476181626" />
+    <state width="1877" height="232" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
+    <state width="1222" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
     <state width="1877" height="138" key="GridCell.Tab.1.bottom" timestamp="1608186224366">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -327,20 +346,20 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="770" y="221" key="RollbackChangesDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186306107" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1608473201500">
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1608476834839">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608211608534" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608473201500" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608476834839" />
     <state x="93" y="93" width="1095" height="495" key="dock-window-1" timestamp="1608304638500">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="93" y="93" width="1095" height="495" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1608304638500" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1608475711880">
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1609076449329">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608128547380" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1608475711880" />
+    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1609076449329" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
