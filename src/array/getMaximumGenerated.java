@@ -17,7 +17,7 @@ import java.util.Arrays;
  */
 public class getMaximumGenerated {
     public static void main(String[] args) {
-        int n = 24;
+        int n = 32;
         System.out.println(getMaximumGenerated(n));
     }
 
