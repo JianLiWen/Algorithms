@@ -29,7 +29,7 @@ public class SearchDataRange {
     public static void main(String[] args) {
         int []nums = {5,7,7,8,8,10};
         int target = 8;
-        int[] index =  searchRange(nums, target);
+        int[] index =  searchDataRangeBetter(nums, target);
         System.out.println(Arrays.toString(index));
     }
 
@@ -66,4 +66,29 @@ public class SearchDataRange {
     }
 
     // 优化解方法：通过二分查找算法
+    // 二分查找法相当于寻找第一个大于等于target的left标以及第一个大于target的right标
+    public static int[] searchDataRangeBetter(int nums[],int target){
+        int lowIndex = binarySearch(nums,target,true);
+        int highIndex = binarySearch(nums,target,false) -1;
+        if (lowIndex<=highIndex && highIndex<nums.length && nums[lowIndex]==target && nums[highIndex] == target){
+            return new int[]{lowIndex,highIndex};
+        }
+        return new int[]{-1,-1};
+    }
+
+    private static  int binarySearch(int nums[],int target,boolean lower){
+        int low = 0;
+        int high = nums.length-1;
+        int ans = nums.length;
+        while (low<=high){
+            int mid = (low+high)/2;
+            if (nums[mid] > target || lower && nums[mid]>=target){
+                high--;
+                ans = mid;
+            }else{
+                low++;
+            }
+        }
+        return ans ;
+    }
 }
