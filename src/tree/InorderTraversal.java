@@ -21,7 +21,7 @@ public class InorderTraversal {
         }
     }
 
-    // 基本算法 注意递归的终止条件是遇到空指针
+    // 基本算法
     public static List<Integer> inorderTraversal(TreeNode root) {
         if (root==null){
             return new ArrayList<>();
@@ -38,5 +38,24 @@ public class InorderTraversal {
         inOrder(root.left,res);
         res.add(root.val);
         inOrder(root.right,res);
+    }
+
+    public static class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+
+        TreeNode() {
+        }
+
+        TreeNode(int val) {
+            this.val = val;
+        }
+
+        TreeNode(int val, TreeNode left, TreeNode right) {
+            this.val = val;
+            this.left = left;
+            this.right = right;
+        }
     }
 }
