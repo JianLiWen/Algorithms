@@ -19,18 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="二叉树-最大深度">
-      <change afterPath="$PROJECT_DIR$/src/tree/mideum/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/mideum/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/mideum/lowestCommonAncestor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/simple/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/simple/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="二叉树-最近公共祖先">
+      <change afterPath="$PROJECT_DIR$/src/tree/simple/isSameTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/array/FindDisappearedNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindDisappearedNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leetcode" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LongestCommonPrefix.java" afterDir="false" />
     </list>
     <list id="120c1275-41b8-4f8d-83a6-24b577a4f96e" name="Revert &quot;二叉树-中序遍历&quot;" comment="二叉树-中序遍历" />
@@ -100,9 +93,9 @@
       <recent name="D:\wenjianli3\Algorithms\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.lowestCommonAncestor">
-    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.InorderTraversal" />
+  <component name="RunManager" selected="Application.isSameTree">
+    <configuration name="InvertTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InvertTree" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -114,8 +107,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvertTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.InvertTree" />
+    <configuration name="isSameTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.simple.isSameTree" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
@@ -168,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.isSameTree" />
         <item itemvalue="Application.lowestCommonAncestor" />
         <item itemvalue="Application.maxDepth" />
         <item itemvalue="Application.mergeTrees" />
         <item itemvalue="Application.InvertTree" />
-        <item itemvalue="Application.InorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +279,7 @@
       <workItem from="1629275828807" duration="957000" />
       <workItem from="1629367848619" duration="2669000" />
       <workItem from="1629431613289" duration="3766000" />
-      <workItem from="1629713520720" duration="640000" />
+      <workItem from="1629713520720" duration="3283000" />
     </task>
     <task id="LOCAL-00001" summary="数组-两数之和">
       <created>1607581523260</created>
@@ -603,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629369868232</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="二叉树-最近公共祖先">
+      <created>1629805347096</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1629805347096</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -637,7 +637,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="字符串-最后一个单词的长度" />
     <MESSAGE value="数组-三角形最小路径和" />
     <MESSAGE value="数组-查找元素位置优化方法" />
     <MESSAGE value="数组-获取生成数组中的最大值" />
@@ -662,7 +661,8 @@
     <MESSAGE value="二叉树-中序遍历" />
     <MESSAGE value="二叉树-合并二叉树" />
     <MESSAGE value="二叉树-最大深度" />
-    <option name="LAST_COMMIT_MESSAGE" value="二叉树-最大深度" />
+    <MESSAGE value="二叉树-最近公共祖先" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树-最近公共祖先" />
   </component>
   <component name="WindowStateProjectService">
     <state x="698" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622112598474">
@@ -687,28 +687,28 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="280" height="377" key="Git.Branch.Popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627528857563" />
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1629700600569">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1629806701465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600569" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629806701465" />
     <state width="2005" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048058" />
     <state width="1237" height="11" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
-    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1629700600568">
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1629806701465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600568" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629806701465" />
     <state width="2005" height="195" key="GridCell.Tab.0.center/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048057" />
     <state width="1237" height="11" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
-    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1629700600568">
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1629806701465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600568" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629806701465" />
     <state width="2005" height="195" key="GridCell.Tab.0.left/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048057" />
     <state width="1237" height="11" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
-    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1629700600569">
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1629806701465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="145" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600569" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629806701465" />
     <state width="2005" height="195" key="GridCell.Tab.0.right/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048057" />
     <state width="1237" height="11" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
     <state width="1877" height="232" key="GridCell.Tab.1.bottom" timestamp="1623149435078">
@@ -751,10 +751,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="701" y="224" key="VCS.ChangeListViewerDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627539584741" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629369869809">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629805349236">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629369869809" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629805349236" />
     <state x="332" y="-1169" key="Vcs.Push.Dialog.v2/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1622385709066" />
     <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622104761912" />
     <state x="483" y="506" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1621241452629">
