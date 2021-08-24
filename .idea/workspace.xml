@@ -19,13 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="数组- 拼写单词">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/array/findKthPositive.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/string/RepeatSubString.java" afterDir="false" />
+    <list default="true" id="1751b28f-2a89-4d78-b1e7-0a0e955d298c" name="Default Changelist" comment="二叉树-最大深度">
+      <change afterPath="$PROJECT_DIR$/src/tree/mideum/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/mideum/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/mideum/lowestCommonAncestor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/simple/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/simple/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/array/FindDisappearedNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/FindDisappearedNumbers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/leetcode" beforeDir="false" afterPath="$PROJECT_DIR$/src/leetcode" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/LongestCommonPrefix.java" afterDir="false" />
     </list>
+    <list id="120c1275-41b8-4f8d-83a6-24b577a4f96e" name="Revert &quot;二叉树-中序遍历&quot;" comment="二叉树-中序遍历" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +42,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="Class" />
       </list>
     </option>
@@ -42,12 +51,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="E:/Maven/apache-maven-3.3.9" />
-        <option name="userSettingsFile" value="E:\Maven\apache-maven-3.3.9\conf\settings.xml" />
-      </MavenGeneralSettings>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="1.8" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1lRfVwssuaxhNGPyJCVRhrW7YNq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +67,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -62,20 +78,35 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1569725732221" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="project.structure.side.proportion" value="0.39885056" />
+    <property name="settings.editor.selected.configurable" value="com.intellij.jarRepository.settings.RemoteRepositoriesConfigurable" />
   </component>
-  <component name="RunManager" selected="Application.RepeatSubString">
-    <configuration name="ArrayRankTransform" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.ArrayRankTransform" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="tree.mideum" />
+      <recent name="tree.simple" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\wenjianli3\Algorithms\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.lowestCommonAncestor">
+    <configuration name="InorderTraversal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InorderTraversal" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="tree.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.CountCharacters" />
+    <configuration name="InvertTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InvertTree" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="tree.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaxConsecutiveOnes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.MaxConsecutiveOnes" />
+    <configuration name="lowestCommonAncestor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.mideum.lowestCommonAncestor" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="tree.mideum.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RepeatSubString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string.RepeatSubString" />
+    <configuration name="maxDepth" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.simple.maxDepth" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string.*" />
+          <option name="PATTERN" value="tree.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array.Reverse" />
+    <configuration name="mergeTrees" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.simple.mergeTrees" />
       <module name="Algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array.*" />
+          <option name="PATTERN" value="tree.simple.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,11 +168,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RepeatSubString" />
-        <item itemvalue="Application.Reverse" />
-        <item itemvalue="Application.CountCharacters" />
-        <item itemvalue="Application.ArrayRankTransform" />
-        <item itemvalue="Application.MaxConsecutiveOnes" />
+        <item itemvalue="Application.lowestCommonAncestor" />
+        <item itemvalue="Application.maxDepth" />
+        <item itemvalue="Application.mergeTrees" />
+        <item itemvalue="Application.InvertTree" />
+        <item itemvalue="Application.InorderTraversal" />
       </list>
     </recent_temporary>
   </component>
@@ -178,7 +209,84 @@
       <workItem from="1608559121787" duration="1072000" />
       <workItem from="1608779953957" duration="1222000" />
       <workItem from="1608818280767" duration="911000" />
-      <workItem from="1609075396427" duration="2173000" />
+      <workItem from="1609075396427" duration="6612000" />
+      <workItem from="1609248319603" duration="44000" />
+      <workItem from="1609319742815" duration="4283000" />
+      <workItem from="1609511272446" duration="2515000" />
+      <workItem from="1609929153758" duration="2683000" />
+      <workItem from="1610017463182" duration="597000" />
+      <workItem from="1610026096142" duration="598000" />
+      <workItem from="1610368217436" duration="2464000" />
+      <workItem from="1610373164444" duration="750000" />
+      <workItem from="1610444078544" duration="267000" />
+      <workItem from="1610544420731" duration="2062000" />
+      <workItem from="1610702756945" duration="1198000" />
+      <workItem from="1611059458473" duration="3641000" />
+      <workItem from="1611123578888" duration="109000" />
+      <workItem from="1611139039087" duration="2804000" />
+      <workItem from="1611223782374" duration="1200000" />
+      <workItem from="1611469166240" duration="590000" />
+      <workItem from="1611569188979" duration="1825000" />
+      <workItem from="1611582907100" duration="1274000" />
+      <workItem from="1614171439658" duration="667000" />
+      <workItem from="1615292535739" duration="2825000" />
+      <workItem from="1617351147748" duration="969000" />
+      <workItem from="1618569887949" duration="957000" />
+      <workItem from="1618637550237" duration="49000" />
+      <workItem from="1618795514671" duration="978000" />
+      <workItem from="1620618366889" duration="875000" />
+      <workItem from="1621235446900" duration="7442000" />
+      <workItem from="1621305918297" duration="7966000" />
+      <workItem from="1621339247140" duration="1795000" />
+      <workItem from="1621408548421" duration="15850000" />
+      <workItem from="1621518888166" duration="1048000" />
+      <workItem from="1621560587685" duration="3397000" />
+      <workItem from="1621580391448" duration="3567000" />
+      <workItem from="1621594543430" duration="8624000" />
+      <workItem from="1621819959178" duration="3151000" />
+      <workItem from="1621935450167" duration="6670000" />
+      <workItem from="1622082258469" duration="13386000" />
+      <workItem from="1622172584772" duration="6265000" />
+      <workItem from="1622190872593" duration="2250000" />
+      <workItem from="1622193388603" duration="3841000" />
+      <workItem from="1622214899649" duration="9384000" />
+      <workItem from="1622444482376" duration="774000" />
+      <workItem from="1622550254531" duration="2368000" />
+      <workItem from="1622631061891" duration="4387000" />
+      <workItem from="1622701892786" duration="4000" />
+      <workItem from="1622701969393" duration="611000" />
+      <workItem from="1623070189542" duration="2715000" />
+      <workItem from="1623143629438" duration="619000" />
+      <workItem from="1623148590574" duration="6113000" />
+      <workItem from="1623306312934" duration="6094000" />
+      <workItem from="1623403535350" duration="1842000" />
+      <workItem from="1623406933669" duration="3318000" />
+      <workItem from="1624007489568" duration="1873000" />
+      <workItem from="1624255907977" duration="898000" />
+      <workItem from="1627527275752" duration="5123000" />
+      <workItem from="1627541937438" duration="11000" />
+      <workItem from="1627614589759" duration="2163000" />
+      <workItem from="1627713041482" duration="597000" />
+      <workItem from="1627809544211" duration="605000" />
+      <workItem from="1627898566826" duration="5396000" />
+      <workItem from="1627973631777" duration="1184000" />
+      <workItem from="1627983785423" duration="325000" />
+      <workItem from="1627992409273" duration="608000" />
+      <workItem from="1628044808487" duration="721000" />
+      <workItem from="1628046093813" duration="1064000" />
+      <workItem from="1628058801011" duration="1197000" />
+      <workItem from="1628064868758" duration="1198000" />
+      <workItem from="1628070833740" duration="1607000" />
+      <workItem from="1628079908154" duration="1513000" />
+      <workItem from="1628126818915" duration="1198000" />
+      <workItem from="1628472517884" duration="427000" />
+      <workItem from="1628492782302" duration="1224000" />
+      <workItem from="1628559532824" duration="1211000" />
+      <workItem from="1629273721492" duration="1905000" />
+      <workItem from="1629275828807" duration="957000" />
+      <workItem from="1629367848619" duration="2669000" />
+      <workItem from="1629431613289" duration="3766000" />
+      <workItem from="1629713520720" duration="640000" />
     </task>
     <task id="LOCAL-00001" summary="数组-两数之和">
       <created>1607581523260</created>
@@ -264,7 +372,238 @@
       <option name="project" value="LOCAL" />
       <updated>1608476833165</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="字符串-重复的字符串">
+      <created>1609077938257</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1609077938257</updated>
+    </task>
+    <task id="LOCAL-00014" summary="数组-获取生成数组中的最大值">
+      <created>1609248010693</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1609248010693</updated>
+    </task>
+    <task id="LOCAL-00015" summary="数组-复写零">
+      <created>1609335776139</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1609335776139</updated>
+    </task>
+    <task id="LOCAL-00016" summary="数组-滑动窗口最大值">
+      <created>1609599917228</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1609599917238</updated>
+    </task>
+    <task id="LOCAL-00017" summary="数组-最大子序和">
+      <created>1609930579861</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1609930579861</updated>
+    </task>
+    <task id="LOCAL-00018" summary="字符串-最后一个单词的长度">
+      <created>1610545575564</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1610545575564</updated>
+    </task>
+    <task id="LOCAL-00019" summary="数组-三角形最小路径和">
+      <created>1611147745120</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1611147745120</updated>
+    </task>
+    <task id="LOCAL-00020" summary="数组-查找元素位置优化方法">
+      <created>1621237596919</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621237596919</updated>
+    </task>
+    <task id="LOCAL-00021" summary="数组-获取生成数组中的最大值">
+      <created>1621237987448</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1621237987448</updated>
+    </task>
+    <task id="LOCAL-00022" summary="链表-两数相加">
+      <created>1621258921766</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1621258921766</updated>
+    </task>
+    <task id="LOCAL-00023" summary="字符串-无重复字符的最长字串">
+      <created>1621321551268</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1621321551268</updated>
+    </task>
+    <task id="LOCAL-00024" summary="字符串-无重复字符的最长字串优化（滑动窗口）">
+      <created>1621426382242</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1621426382242</updated>
+    </task>
+    <task id="LOCAL-00025" summary="字符串-寻找两个正序数组的中位数">
+      <created>1621428944993</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1621428944993</updated>
+    </task>
+    <task id="LOCAL-00026" summary="字符串-寻找两个正序数组的中位数">
+      <created>1621492862956</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1621492862956</updated>
+    </task>
+    <task id="LOCAL-00027" summary="数组-整数反转">
+      <created>1622086744405</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1622086744405</updated>
+    </task>
+    <task id="LOCAL-00028" summary="数组-整数反转（最优解）">
+      <created>1622104760093</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1622104760093</updated>
+    </task>
+    <task id="LOCAL-00029" summary="数组-回文数">
+      <created>1622121024712</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1622121024712</updated>
+    </task>
+    <task id="LOCAL-00030" summary="数组-罗马数字转整数">
+      <created>1622123721373</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1622123721373</updated>
+    </task>
+    <task id="LOCAL-00031" summary="字符串-最长公共前缀">
+      <created>1622194497193</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1622194497193</updated>
+    </task>
+    <task id="LOCAL-00032" summary="字符串-最长公共前缀(最优解)">
+      <created>1622195237216</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1622195237216</updated>
+    </task>
+    <task id="LOCAL-00033" summary="数组-删除有序数组中的重复项">
+      <created>1622271300671</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1622271300671</updated>
+    </task>
+    <task id="LOCAL-00034" summary="字符串-有效的括号">
+      <created>1622385707848</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1622385707848</updated>
+    </task>
+    <task id="LOCAL-00035" summary="动态规划-爬楼梯">
+      <created>1622445235321</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1622445235321</updated>
+    </task>
+    <task id="LOCAL-00036" summary="链表-合并有序链表">
+      <created>1622551379999</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1622551379999</updated>
+    </task>
+    <task id="LOCAL-00037" summary="树-二叉树中序遍历">
+      <created>1622552461763</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1622552461763</updated>
+    </task>
+    <task id="LOCAL-00038" summary="数组-找到所有数组中消失的数字">
+      <created>1622633161126</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1622633161126</updated>
+    </task>
+    <task id="LOCAL-00039" summary="数组-只出现一次的数字">
+      <created>1622687765574</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1622687765574</updated>
+    </task>
+    <task id="LOCAL-00040" summary="链表-反转链表">
+      <created>1623327226092</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1623327226092</updated>
+    </task>
+    <task id="LOCAL-00041" summary="二叉树-中序遍历">
+      <created>1627528264858</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1627528264858</updated>
+    </task>
+    <task id="LOCAL-00042" summary="二叉树-中序遍历">
+      <created>1627539561137</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1627539561138</updated>
+    </task>
+    <task id="LOCAL-00043" summary="二叉树-中序遍历">
+      <created>1627539742272</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1627539742272</updated>
+    </task>
+    <task id="LOCAL-00044" summary="二叉树-合并二叉树">
+      <created>1629275529291</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1629275529291</updated>
+    </task>
+    <task id="LOCAL-00045" summary="二叉树-最大深度">
+      <created>1629369868232</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1629369868232</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,86 +619,169 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="数组-两数之和" />
-    <MESSAGE value="数组-数字初始和末尾位置" />
-    <MESSAGE value="数组-转置矩阵、有序数组的平方" />
-    <MESSAGE value="数组-数组形式的整数加法" />
-    <MESSAGE value="数组-数组形式的整数加法优化" />
-    <MESSAGE value="数组-主要元素" />
-    <MESSAGE value="数组- 所有奇数长度子数组的和" />
-    <MESSAGE value="数组- 三个数最大乘积" />
-    <MESSAGE value="数组- 存在重复元素" />
-    <MESSAGE value="数组- 最大连续1的个数" />
-    <MESSAGE value="数组- 数组序号转换" />
-    <MESSAGE value="数组- 拼写单词" />
-    <option name="LAST_COMMIT_MESSAGE" value="数组- 拼写单词" />
+    <MESSAGE value="字符串-最后一个单词的长度" />
+    <MESSAGE value="数组-三角形最小路径和" />
+    <MESSAGE value="数组-查找元素位置优化方法" />
+    <MESSAGE value="数组-获取生成数组中的最大值" />
+    <MESSAGE value="链表-两数相加" />
+    <MESSAGE value="字符串-无重复字符的最长字串" />
+    <MESSAGE value="字符串-无重复字符的最长字串优化（滑动窗口）" />
+    <MESSAGE value="字符串-寻找两个正序数组的中位数" />
+    <MESSAGE value="数组-整数反转" />
+    <MESSAGE value="数组-整数反转（最优解）" />
+    <MESSAGE value="数组-回文数" />
+    <MESSAGE value="数组-罗马数字转整数" />
+    <MESSAGE value="字符串-最长公共前缀" />
+    <MESSAGE value="字符串-最长公共前缀(最优解)" />
+    <MESSAGE value="数组-删除有序数组中的重复项" />
+    <MESSAGE value="字符串-有效的括号" />
+    <MESSAGE value="动态规划-爬楼梯" />
+    <MESSAGE value="链表-合并有序链表" />
+    <MESSAGE value="树-二叉树中序遍历" />
+    <MESSAGE value="数组-找到所有数组中消失的数字" />
+    <MESSAGE value="数组-只出现一次的数字" />
+    <MESSAGE value="链表-反转链表" />
+    <MESSAGE value="二叉树-中序遍历" />
+    <MESSAGE value="二叉树-合并二叉树" />
+    <MESSAGE value="二叉树-最大深度" />
+    <option name="LAST_COMMIT_MESSAGE" value="二叉树-最大深度" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="736" y="413" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1608559525016">
+    <state x="698" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1622112598474">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="736" y="413" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608559525016" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1607912792163">
+    <state x="698" y="320" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1622112598474" />
+    <state x="736" y="413" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1627898803327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1607912792163" />
-    <state width="1222" height="157" key="GridCell.Tab.0.bottom" timestamp="1609076950495">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
-    <state width="1222" height="157" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
-    <state width="1222" height="157" key="GridCell.Tab.0.center" timestamp="1609076950495">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
-    <state width="1222" height="157" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
-    <state width="1222" height="157" key="GridCell.Tab.0.left" timestamp="1609076950495">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
-    <state width="1222" height="157" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
-    <state width="1222" height="157" key="GridCell.Tab.0.right" timestamp="1609076950495">
-      <screen x="0" y="0" width="1280" height="680" />
-    </state>
-    <state width="1877" height="232" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608880664697" />
-    <state width="1222" height="157" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1609076950495" />
-    <state width="1877" height="138" key="GridCell.Tab.1.bottom" timestamp="1608186224366">
+    <state x="736" y="413" width="447" height="221" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627898803327" />
+    <state x="545" y="77" key="CommitChangelistDialog2" timestamp="1627539633003">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186224366" />
-    <state width="1877" height="138" key="GridCell.Tab.1.center" timestamp="1608186224366">
+    <state x="545" y="77" key="CommitChangelistDialog2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627539633003" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1629275963834">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186224366" />
-    <state width="1877" height="138" key="GridCell.Tab.1.left" timestamp="1608186224366">
+    <state x="740" y="275" key="FileChooserDialogImpl/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629275963834" />
+    <state x="493" y="180" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1622701981383" />
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1628559548809" />
+    <state width="280" height="377" key="Git.Branch.Popup" timestamp="1627528857563">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186224366" />
-    <state width="1877" height="138" key="GridCell.Tab.1.right" timestamp="1608186224366">
+    <state width="280" height="377" key="Git.Branch.Popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627528857563" />
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom" timestamp="1629700600569">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="138" key="GridCell.Tab.1.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186224366" />
-    <state x="770" y="221" key="RollbackChangesDialog" timestamp="1608186306107">
+    <state width="1877" height="145" key="GridCell.Tab.0.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600569" />
+    <state width="2005" height="195" key="GridCell.Tab.0.bottom/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048058" />
+    <state width="1237" height="11" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center" timestamp="1629700600568">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="770" y="221" key="RollbackChangesDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608186306107" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2" timestamp="1608476834839">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="145" key="GridCell.Tab.0.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600568" />
+    <state width="2005" height="195" key="GridCell.Tab.0.center/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048057" />
+    <state width="1237" height="11" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left" timestamp="1629700600568">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608211608534" />
-    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1608476834839" />
-    <state x="93" y="93" width="1095" height="495" key="dock-window-1" timestamp="1608304638500">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="145" key="GridCell.Tab.0.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600568" />
+    <state width="2005" height="195" key="GridCell.Tab.0.left/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048057" />
+    <state width="1237" height="11" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right" timestamp="1629700600569">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="93" y="93" width="1095" height="495" key="dock-window-1/0.0.1280.680@0.0.1280.680" timestamp="1608304638500" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup" timestamp="1609076449329">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state width="1877" height="145" key="GridCell.Tab.0.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629700600569" />
+    <state width="2005" height="195" key="GridCell.Tab.0.right/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623676048057" />
+    <state width="1237" height="11" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1627957223217" />
+    <state width="1877" height="232" key="GridCell.Tab.1.bottom" timestamp="1623149435078">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1608128547380" />
-    <state x="415" y="147" width="672" height="444" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1609076449329" />
+    <state width="1877" height="232" key="GridCell.Tab.1.bottom/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1623149435078" />
+    <state width="2005" height="252" key="GridCell.Tab.1.bottom/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1622385591272" />
+    <state width="1237" height="188" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1621821278662" />
+    <state width="1877" height="232" key="GridCell.Tab.1.center" timestamp="1623149435078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.1.center/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1623149435078" />
+    <state width="2005" height="252" key="GridCell.Tab.1.center/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1622385591272" />
+    <state width="1237" height="188" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1621821278662" />
+    <state width="1877" height="232" key="GridCell.Tab.1.left" timestamp="1623149435078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.1.left/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1623149435078" />
+    <state width="2005" height="252" key="GridCell.Tab.1.left/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1622385591271" />
+    <state width="1237" height="188" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1621821278661" />
+    <state width="1877" height="232" key="GridCell.Tab.1.right" timestamp="1623149435078">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="232" key="GridCell.Tab.1.right/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1623149435078" />
+    <state width="2005" height="252" key="GridCell.Tab.1.right/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1622385591272" />
+    <state width="1237" height="188" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1621821278662" />
+    <state x="425" y="318" key="NewModule_or_Project.wizard" timestamp="1621235727825">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="425" y="318" key="NewModule_or_Project.wizard/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1621235727825" />
+    <state x="766" y="221" key="RollbackChangesDialog" timestamp="1622633263721">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="766" y="221" key="RollbackChangesDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1622633263721" />
+    <state x="265" y="189" key="SettingsEditor" timestamp="1621241460860">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="265" y="189" key="SettingsEditor/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1621241460860" />
+    <state x="701" y="224" key="VCS.ChangeListViewerDialog" timestamp="1627539584741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="701" y="224" key="VCS.ChangeListViewerDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627539584741" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1629369869809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1629369869809" />
+    <state x="332" y="-1169" key="Vcs.Push.Dialog.v2/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1622385709066" />
+    <state x="368" y="147" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1622104761912" />
+    <state x="483" y="506" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1621241452629">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="483" y="506" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1621241452629" />
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1627527279389">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="753" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627527279389" />
+    <state x="662" y="252" width="596" height="536" key="find.popup" timestamp="1627614678371">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="662" y="252" width="596" height="536" key="find.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627614678371" />
+    <state x="769" y="414" key="git4idea.ui.GitResetDialog" timestamp="1627539670316">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="769" y="414" key="git4idea.ui.GitResetDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1627539670316" />
+    <state x="160" y="275" key="new project wizard" timestamp="1621235714568">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="160" y="275" key="new project wizard/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1621235714568" />
+    <state x="408" y="-1199" width="717" height="725" key="search.everywhere.popup" timestamp="1623675870710">
+      <screen x="-257" y="-1440" width="2048" height="1112" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1622552343833" />
+    <state x="408" y="-1199" width="717" height="725" key="search.everywhere.popup/0.0.1280.680/-257.-1440.2048.1112@-257.-1440.2048.1112" timestamp="1623675870710" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -429,57 +851,45 @@
           <line>26</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestSubString.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestSubString.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/RomanToInt.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestCommonPrefix.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/LongestCommonPrefix.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/string/IsValid.java</url>
+          <line>52</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/array/FindDisappearedNumbers.java</url>
+          <line>48</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>
